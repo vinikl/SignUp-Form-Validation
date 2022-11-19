@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+        <h2>Create account</h2>
+        <div>
+            <label for="name_input">Your name</label><br>
+            <input required type="text" id="name_input" name="name_input">
+            <span class="error" id="name_error"></span>
+        </div>
+        <div>
+            <label for="user_email">Email</label><br>
+            <input required type="email" id="user_email" name="user_email">
+            <span class="error" id="email_error"></span>
+        </div>
+        <div>
+            <label for="user_password">Password</label><br>
+            <input required type="password" id="user_password" name="user_password" minlength="6">
+            <span class="error" id="password-error"></span>
+        </div>
+        <div>
+            <label for="password_confirmation">Re-enter password</label><br>
+            <input type="password" id="password_confirmation" name="password_confirmation">
+            <span class="error" id="password-error-2"></span>
+        </div>
+        <div>
+            <button>SIGN UP</button>
+            <span class="success" id="btn-msg"></span>
+        </div> 
+        <div class="terms">
+            <p>By creating an account, you agree to our <a href="">Conditions of Use</a> and <a href="">Privacy Notice</a>.</p>
+        </div>
+        <div class="sec-txt">
+            <p>Already have an account? <a href="">Sign In</a></p>
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html>
