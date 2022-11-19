@@ -1,1 +1,1 @@
-Registration form with fields validation.
+Registration form with validation.
